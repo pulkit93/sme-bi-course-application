@@ -22,8 +22,6 @@
 
 #### Context
 
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
-
 The data analyst at Amazon Prime has the important task of analysing the production countries and the languages spoken in the movies. Unfortunately, this information is packed into nested columns with JSON strings. The data analyst needs your help to extract information from these complicated data fields. Perform the below steps to help your colleague
 
 #### Steps to be executed by the student (max 6)
@@ -39,9 +37,9 @@ The data analyst at Amazon Prime has the important task of analysing the product
 #### Exercise question:
 *This is a question presented to learners to check if the steps above were properly completed. It can be a multiple choice question or a question with a 1-3 word answer. It is often not possible to check if all the steps are completed, in this case; the priority is to check that the learner meets the learning objective.*
 
-Question 1: Have you used the from_json() function and its arguments correctly?
-Question 2: Hove you mentioned the JSON key correctly in the schema argument
-Question 3: Are you mentioning the key associated with language name instead of language code?
+- Question 1: Have you used the from_json() function and its arguments correctly?
+- Question 2: Hove you mentioned the JSON key correctly in the schema argument
+- Question 3: Are you mentioning the key associated with language name instead of language code?
 #### End goal:
 
 *No visualisation as this is a code based task*
@@ -62,8 +60,6 @@ Question 3: Are you mentioning the key associated with language name instead of 
 *In this exercise you will learn to expand array fields across multiple rows and flatten complex array structures*
 
 #### Context
-
-*3 - 4 sentence description of why it’s important to learn how to do this task (linking back to the learning objective). Explain how this would be used in a real-life situation. Why is it useful, what problem does it solve?*
 
 Amazon Prime wants to expand their offerings into regions like Bahamas and Congo. For this, they need to analyse the movies produced in these regions along with the languages spoken in those movies. Your data analyst colleague is unavailable due to a family emergency and the team needs someone who is adept at handling complex nested structures to provide these valuable insights. Perform the below tasks to help the team.
 #### Steps to be executed by the student (max 6)
