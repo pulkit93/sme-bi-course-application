@@ -28,7 +28,7 @@ The data analyst at Amazon Prime has the important task of analysing the product
 
 *Each bulleted instruction is a complete sentence that describes a specific task.*
 
-- Step 1: Display top 100 rows from the movies_data table. Visualise the production_counties and spoken_languagues column to understand the structure of JSON object
+- Step 1: Display top 100 rows from the movies_data table. Visualise the production_countries and spoken_languagues column to understand the structure of JSON object
 - Step 2: transform production_countries column of movies_data into array of struct
 - Step 3: transform spoken_languages column of movies_data into array of struct
 - Step 4: extract the name of production countries associated with each movie into a simplified array
@@ -64,12 +64,10 @@ The data analyst at Amazon Prime has the important task of analysing the product
 Amazon Prime wants to expand their offerings into regions like Bahamas and Congo. For this, they need to analyse the movies produced in these regions along with the languages spoken in those movies. Your data analyst colleague is unavailable due to a family emergency and the team needs someone who is adept at handling complex nested structures to provide these valuable insights. Perform the below tasks to help the team.
 #### Steps to be executed by the student (max 6)
 
-*Each bulleted instruction is a complete sentence that describes a specific task.*
-
 - Step 1: Expand the country_list array with every country in an individual row
 - Step 2: Filter movies that were produced in Bahamas and Congo
 - Step 3: Collect and aggregate the language codes associated with various movies into a single row for each production country
-- Step 4: Simplfy and flatten the array structure associated with country codes. Also remove duplicates if any.
+- Step 4: Simplfy and flatten the array structure associated with country codes. Remove duplicate language codes from the language list if any.
 
 #### Exercise question:
 - Question 1: Have you used the explode function correctly?
