@@ -21,7 +21,7 @@ from default.movies_data
 CREATE OR REPLACE TEMP VIEW movies_data_clean as
 SELECT 
 movie_id, title,
-from_json(production_countries, 'array<_ _ _ _<_ _ _ _:string, name:string>>') as production_countries,
+_ _ _ _(production_countries, 'array<_ _ _ _<_ _ _ _:string, name:string>>') as production_countries,
 _ _ _ _(spoken_languages, '_ _ _ _ _') as spoken_languages
 FROM default.movies_data;
 
