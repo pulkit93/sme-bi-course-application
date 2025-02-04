@@ -70,7 +70,7 @@ select
 countries, _ _ _ _(language_list) as languages
 from movies_v3
 where countries in ('Bahamas', 'Congo')
-group by countries;
+group by _ _ _ _;
 
 select *
 from movies_v4;
